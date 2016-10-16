@@ -1,6 +1,11 @@
+/**
+ * Name: Skeleton - Multipurpose Bootstrap HTML Template
+ * Author: Nemanja Pantoš
+ * Version: 0.4
+**/
 $main-color: #41c3ac;
 $menu-color: #4d4c4c;
-$header-height:40rem;
+$header-height:35rem;
 body{
 	background: #f0f0f0;
 }
@@ -52,9 +57,26 @@ header{
 		width:2rem;
 	}
 }
-section#intro{
-	padding:5rem;
+section.cool-stuff{
+	padding:5rem 0 2rem 0;
 	h2{
 		padding:2rem;
 	}
+	.single-image,
+	.gallery-image{
+		outline: 0;
+		text-decoration: none;
+		
+		img{
+		height: 65px;
+		width: auto;
+		margin-right: 10px;
+		}
+	}
+}
+
+footer{
+	padding:2rem;
+	background: url(../images/bg.png);
+	color:#fff;
 }
