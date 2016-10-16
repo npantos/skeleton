@@ -2,81 +2,126 @@
  * Name: Skeleton - Multipurpose Bootstrap HTML Template
  * Author: Nemanja Pantoš
  * Version: 0.4
+ **/
+
+/*------------------------------------*\
+    TABLE OF CONTENTS
+\*------------------------------------*/
+/**
+*** Variables...................................... Main page variables
+*** Body........................................... Body background, font, and etc..
+*** Top of the index page.......................... Header, menu, hero design
+*** Card design.................................... Design of cards
+*** Section on index page.......................... Default design of first page sections
+*** Isotope.js..................................... Isotope plugin
+*** Footer......................................... Design of bottom of page
 **/
+
+/*------------------------------------*\
+    Variables
+\*------------------------------------*/ 
+
 $main-color: #41c3ac;
 $menu-color: #4d4c4c;
 $header-height:35rem;
+
+/*------------------------------------*\
+    Body
+\*------------------------------------*/ 
+
 body{
 	background: #f0f0f0;
 }
+/*------------------------------------*\
+    Top of the index page
+\*------------------------------------*/ 
 header{
 	background: url(../images/bg.png);
 	height: $header-height;
-
+	.logo{
+		svg{
+			fill:#fff;
+			width:2rem;
+		}
+	}
 	h1{
 		color:#fff;
 	}
 	.hero{
 		height: $header-height;
 		display: flex;
-  /*align-items: center;
-  justify-content: center;*/
-
-  /*background:rgba(255,255,255,0.5);*/
-}
-.menu{
-	width:100%;
-	padding:20px 0;
-	position:absolute;
-	nav.navbar{
-		/*background:rgba(255,255,255,0.5);*/
-		ul{
-			list-style: none;
-			li{
-				display: inline-block;
-				a{
-					color: #fff;
-					padding: 0 20px;
+	}
+	.menu{
+		width:100%;
+		padding:20px 0;
+		position:absolute;
+		nav.navbar{
+			ul{
+				list-style: none;
+				li{
+					display: inline-block;
+					a{
+						color: #fff;
+						padding: 0 20px;
+					}
 				}
 			}
 		}
 	}
 }
-
-}
-.flex-center{
-	justify-content: center;
-}
+/*------------------------------------*\
+    Card design
+\*------------------------------------*/ 
 .card{
 	background:#fff;
 }
 
-.logo{
-	svg{
-		fill:#fff;
-		width:2rem;
-	}
-}
+
+/*------------------------------------*\
+    Section on index page
+\*------------------------------------*/    
 section.cool-stuff{
-	padding:5rem 0 2rem 0;
-	h2{
-		padding:2rem;
-	}
-	.single-image,
-	.gallery-image{
-		outline: 0;
-		text-decoration: none;
-		
-		img{
-		height: 65px;
-		width: auto;
-		margin-right: 10px;
-		}
-	}
+    	padding:5rem 0 2rem 0;
+    	h2{
+    		padding:2rem;
+    	}
+    	.magic{
+    		.single-image,
+    		.gallery-image{
+    			outline: 0;
+    			text-decoration: none;
+
+    			img{
+    			height: 65px;
+    			width: auto;
+    			margin-right: 10px;
+    		}
+    	}
+    }
 }
 
-footer{
-	padding:2rem;
-	background: url(../images/bg.png);
-	color:#fff;
-}
+
+/*------------------------------------*\
+    Isotope.js
+\*------------------------------------*/
+
+    .grid{
+    	img{
+    		margin-bottom:30px;
+    	}
+    }
+
+    .button-group button{
+    	margin: 0 10px 30px 0;
+    	outline: 0 !important;
+
+    }
+
+/*------------------------------------*\
+    footer
+\*------------------------------------*/
+    footer{
+    	padding:2rem;
+    	background: url(../images/bg.png);
+    	color:#fff;
+    }    
