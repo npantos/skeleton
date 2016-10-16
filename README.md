@@ -1,1 +1,1 @@
-# kostur
+# Skeleton - Multipurpose Bootstrap HTML Template
