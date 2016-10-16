@@ -1,0 +1,16 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+$brand-primary:             #563d7c;
+$enable-flex:               true;
+$enable-rounded:            false;
+$enable-shadows:            false;
+$enable-gradients:          true;
+$enable-transitions:        true;
+$enable-hover-media-query:  true;
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+$btn-secondary-color:            #fff;
+$btn-secondary-bg:               #fff;
+$btn-secondary-border:           #fff;
