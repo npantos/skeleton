@@ -1,0 +1,26 @@
+{
+  "name": "kostur",
+  "version": "0.0.1",
+  "description": "Kostur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nemanja Pantoš",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.17.2",
+    "gulp-sass": "^2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npantos/kostur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/npantos/kostur/issues"
+  },
+  "homepage": "https://github.com/npantos/kostur#readme"
+}
